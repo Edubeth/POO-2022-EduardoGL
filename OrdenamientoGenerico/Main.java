@@ -9,9 +9,10 @@ public class Main {
 
        Float [] floatVector = { 19.1f, 456.6f, 23.45f, 12.34f, 11.11f, 354.55f, 78.45f, 28.33f, 45.99f, 108.88f };
        Float [] resulta = AlgoritmoQuickSort.ordenar (floatVector);
-
-
-
+/*
+       String [] strVector = {"zz", "aa", "cc", "hh", "bb", "ee", "ll"};
+       String [] result = Utils.ordena (strVector);
+*/
         System.out.println("vectores ordenados\n");
 
         for (float R:resulta){
